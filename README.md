@@ -85,11 +85,11 @@ The program is intented to segment a DNA sequence at different significance leve
 The DNA sequence, the initial significance level (number in [0,1]), final significance level (number in [0,1]) and the number of segmentations:
 
  USAGE:
-     scc <DNA file> <init. sl> <end sl> <# exp.> [options]
+     scc   DNA_file   init._sl   end_sl   #_exp.   [options]
 
 If you simply want to segment at a given significance level, e.g. 95% you can type:
 
-scc <DNA file> 0.95 0.95 1
+scc   DNA_file   0.95   0.95   1
 
 Note that 0.95 corresponds to 95% significance.
 
